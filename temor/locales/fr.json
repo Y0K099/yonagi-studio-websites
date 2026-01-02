@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "support": "Support"
+  },
+  "hero": {
+    "title": "Vivez le jeu d'assassinat ultime",
+    "description": "Un jeu d'assassinat multijoueur en temps réel sans maître de jeu. Chaque joueur reçoit une cible secrète et doit l'éliminer en accomplissant des missions créatives. Le dernier joueur en vie gagne, ou celui avec le plus d'éliminations quand le temps est écoulé!\n\nChoisissez parmi une variété de missions, adaptez votre stratégie, et éliminez vos cibles discrètement. Serez-vous l'assassin ultime?",
+    "appScreenshot": "Logo de l'app Témor"
+  },
+  "download": {
+    "downloadOn": "Télécharger sur",
+    "getItOn": "Disponible sur",
+    "comingSoon": "Bientôt disponible sur l'App Store et Google Play"
+  },
+  "support": {
+    "title": "Support & Aide",
+    "subtitle": "Besoin d'aide avec Témor ? Nous sommes là pour vous aider !",
+    "email": {
+      "title": "Support Email",
+      "description": "Pour les problèmes techniques, rapports de bugs, ou questions générales, contactez notre équipe support :"
+    },
+    "response": {
+      "title": "Réponse Rapide",
+      "description": "Nous répondons généralement dans les 24 heures pendant les jours ouvrables. Pour les problèmes urgents, mentionnez-le dans l'objet.",
+      "time": "Temps de réponse moyen : < 24 heures"
+    }
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : 2 janvier 2026",
+    "introduction": "Cette Politique de Confidentialité décrit comment Témor (\"nous\", \"notre\", ou \"nos\") collecte, utilise et protège vos informations personnelles lorsque vous utilisez notre application mobile.",
+    "contact": "Nous Contacter",
+    "contactDescription": "Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter à :",
+    "dataCollection": {
+      "title": "1. Informations que Nous Collectons",
+      "userProvided": {
+        "title": "Informations Fournies par l'Utilisateur :",
+        "items": [
+          "Adresse email ou authentification anonyme",
+          "Nom d'utilisateur (pour l'identification en jeu)",
+          "Sélection de cartes de mission",
+          "Historique et statistiques de jeu"
+        ]
+      },
+      "automatic": {
+        "title": "Données Collectées Automatiquement :",
+        "items": [
+          "Détails techniques de l'appareil (via Firebase App Check)",
+          "Données de synchronisation en temps réel",
+          "Tokens de notifications push",
+          "Actions de jeu anonymisées"
+        ]
+      }
+    },
+    "dataUsage": {
+      "title": "2. Comment Nous Utilisons Vos Informations",
+      "items": [
+        "Authentification utilisateur et gestion de compte",
+        "Support de gameplay et synchronisation temps réel",
+        "Personnalisation utilisateur et historique de jeu",
+        "Optimisation des performances et correction de bugs",
+        "Sécurité et prévention de fraude",
+        "Notifications push pour les événements de jeu"
+      ]
+    },
+    "advertising": {
+      "title": "3. Publicité",
+      "items": [
+        "Cette application n'affiche pas de publicités",
+        "Nous ne collectons pas d'identifiants publicitaires",
+        "Aucun réseau publicitaire tiers n'est utilisé"
+      ]
+    },
+    "dataStorage": {
+      "title": "4. Stockage et Sécurité des Données",
+      "items": [
+        "Hébergé sur Google Cloud/Firebase avec serveurs européens",
+        "Chiffré en transit et au repos",
+        "Règles de sécurité Firestore granulaires",
+        "Politiques automatiques de nettoyage et rétention des données"
+      ]
+    },
+    "userRights": {
+      "title": "5. Vos Droits",
+      "items": [
+        "Accéder à vos données personnelles",
+        "Modifier les détails de votre compte",
+        "Supprimer votre compte et données associées",
+        "Demander la portabilité des données"
+      ]
+    },
+    "uniqueFeatures": {
+      "title": "6. Ce que Nous NE Faisons PAS",
+      "items": [
+        "Aucun tracking d'analytics externe",
+        "Isolation stricte des données entre parties",
+        "Aucune vente de vos données personnelles à des tiers",
+        "Aucune publicité ou tracking"
+      ]
+    },
+    "changes": {
+      "title": "7. Modifications de cette Politique",
+      "description": "Nous pouvons mettre à jour cette Politique de Confidentialité de temps en temps. Nous vous informerons de tout changement en publiant la nouvelle Politique sur cette page et en mettant à jour la date \"Dernière mise à jour\"."
+    }
+  },
+  "contact": {
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": "Pseudo",
+      "namePlaceholder": "Entrez votre pseudo",
+      "email": "Adresse Email",
+      "emailPlaceholder": "Entrez votre adresse email",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Description brève de votre problème",
+      "message": "Message",
+      "messagePlaceholder": "Décrivez votre question ou problème en détail...",
+      "inGame": "Êtes-vous en partie ?",
+      "inGameYes": "Oui",
+      "inGameNo": "Non",
+      "gameId": "Code de partie",
+      "gameIdPlaceholder": "Entrez le code de votre partie",
+      "send": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "directEmail": "Ou contactez-nous directement à :"
+    },
+    "success": {
+      "title": "Message envoyé avec succès",
+      "message": "Nous avons bien reçu votre message et vous répondrons dans les plus brefs délais.",
+      "note": "En cas de problème urgent, vous pouvez nous contacter directement par email."
+    }
+  },
+  "terms": {
+    "title": "Conditions Générales d'Utilisation",
+    "lastUpdated": "Dernière mise à jour : 2 janvier 2026",
+    "introduction": "Les présentes Conditions Générales d'Utilisation régissent l'utilisation de l'application Témor.",
+    "contact": "Nous Contacter",
+    "contactDescription": "Si vous avez des questions concernant ces Conditions Générales, veuillez nous contacter à :",
+    "usage": {
+      "title": "1. Conditions d'Utilisation",
+      "items": [
+        "Vous devez avoir au moins 13 ans pour utiliser l'application",
+        "L'utilisation de l'application est soumise à nos règles de conduite",
+        "Tout comportement abusif peut entraîner la suspension de votre compte",
+        "Nous nous réservons le droit de modifier le contenu de l'application"
+      ]
+    },
+    "liability": {
+      "title": "2. Limitation de Responsabilité",
+      "items": [
+        "L'application est fournie 'en l'état' sans garantie",
+        "Nous ne sommes pas responsables des interruptions de service",
+        "Nous ne garantissons pas la disponibilité permanente de l'application"
+      ]
+    },
+    "changes": {
+      "title": "3. Modifications des Conditions",
+      "description": "Nous pouvons modifier ces Conditions Générales à tout moment. Les modifications seront publiées sur cette page avec une nouvelle date de mise à jour. L'utilisation continue de l'application après modification vaut acceptation des nouvelles conditions."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Témor. Tous droits réservés.",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions Générales"
+  }
+}

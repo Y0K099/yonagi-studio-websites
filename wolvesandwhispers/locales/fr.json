@@ -1,0 +1,195 @@
+{
+  "nav": {
+    "support": "Support"
+  },
+  "hero": {
+    "werewolf": "Vivez l'expérience immersive des Loups-Garous",
+    "description": "Chaque jour vous devez réussir une épreuve collective afin de remporter un rôle clé pour le village. Le but des loups ? Saboter la réussite de l'épreuve sans se faire démasquer: pas de rôles pour le village, plus de chances de tous les dévorer!\n\nLes villageois, sortez votre meilleur jeu d'enqueteur.ice et essayez de démasquer les loups: un joueur pas très impliqué dans l'épreuve ou qui essaie de la saboter ? Vous avez votre cible.",
+    "appScreenshot": "Capture d'écran de l'app Wolves & Whispers"
+  },
+  "download": {
+    "downloadOn": "Télécharger sur",
+    "getItOn": "Disponible sur"
+  },
+  "support": {
+    "title": "Support & Aide",
+    "subtitle": "Besoin d'aide avec Wolves & Whispers ? Nous sommes là pour vous aider !",
+    "email": {
+      "title": "Support Email",
+      "description": "Pour les problèmes techniques, rapports de bugs, ou questions générales, contactez notre équipe support :"
+    },
+    "response": {
+      "title": "Réponse Rapide",
+      "description": "Nous répondons généralement dans les 24 heures pendant les jours ouvrables. Pour les problèmes urgents, mentionnez-le dans l'objet.",
+      "time": "Temps de réponse moyen : < 24 heures"
+    }
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : 28 août 2024",
+    "introduction": "Cette Politique de Confidentialité décrit comment Wolves & Whispers (\"nous\", \"notre\", ou \"nos\") collecte, utilise et protège vos informations personnelles lorsque vous utilisez notre application mobile.",
+    "contact": "Nous Contacter",
+    "contactDescription": "Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter à :",
+    "dataCollection": {
+      "title": "1. Informations que Nous Collectons",
+      "userProvided": {
+        "title": "Informations Fournies par l'Utilisateur :",
+        "items": [
+          "Adresse email (pour l'authentification)",
+          "Nom d'utilisateur (pour l'identification en jeu)",
+          "Compositions de rôles personnalisées",
+          "Historique et statistiques de jeu"
+        ]
+      },
+      "automatic": {
+        "title": "Données Collectées Automatiquement :",
+        "items": [
+          "Détails techniques de l'appareil",
+          "Modèles d'utilisation et métriques de performance",
+          "Statut de présence en temps réel pendant les parties",
+          "Actions de jeu et interactions anonymisées"
+        ]
+      }
+    },
+    "dataUsage": {
+      "title": "2. Comment Nous Utilisons Vos Informations",
+      "items": [
+        "Authentification utilisateur et gestion de compte",
+        "Support de gameplay et synchronisation temps réel",
+        "Personnalisation utilisateur et historique de jeu",
+        "Optimisation des performances et correction de bugs",
+        "Sécurité et prévention de fraude",
+        "Affichage de publicités (avec votre consentement en Europe)"
+      ]
+    },
+    "advertising": {
+      "title": "3. Publicité et Partenaires Tiers",
+      "items": [
+        "Nous utilisons Google AdMob pour afficher des publicités dans l'application",
+        "AdMob peut collecter des identifiants publicitaires et données d'usage",
+        "Vous pouvez choisir entre publicités personnalisées ou non personnalisées",
+        "En Europe (RGPD), nous demandons votre consentement avant toute publicité personnalisée",
+        "Vous pouvez modifier vos préférences publicitaires à tout moment dans les paramètres",
+        "Consultez la politique de confidentialité de Google : https://policies.google.com/privacy"
+      ]
+    },
+    "dataStorage": {
+      "title": "4. Stockage et Sécurité des Données",
+      "items": [
+        "Hébergé sur Google Cloud/Firebase avec serveurs européens",
+        "Chiffré en transit et au repos",
+        "Règles de sécurité Firestore granulaires",
+        "Politiques automatiques de nettoyage et rétention des données"
+      ]
+    },
+    "userRights": {
+      "title": "5. Vos Droits",
+      "items": [
+        "Accéder à vos données personnelles",
+        "Modifier les détails de votre compte",
+        "Supprimer votre compte et données associées",
+        "Demander la portabilité des données"
+      ]
+    },
+    "uniqueFeatures": {
+      "title": "6. Ce que Nous NE Faisons PAS",
+      "items": [
+        "Aucun tracking d'analytics externe (en dehors d'AdMob)",
+        "Isolation stricte des données entre parties",
+        "Aucune vente de vos données personnelles à des tiers",
+        "Aucune publicité sans votre consentement en Europe"
+      ]
+    },
+    "changes": {
+      "title": "7. Modifications de cette Politique",
+      "description": "Nous pouvons mettre à jour cette Politique de Confidentialité de temps en temps. Nous vous informerons de tout changement en publiant la nouvelle Politique sur cette page et en mettant à jour la date \"Dernière mise à jour\"."
+    }
+  },
+  "contact": {
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": "Pseudo",
+      "namePlaceholder": "Entrez votre pseudo",
+      "email": "Adresse Email",
+      "emailPlaceholder": "Entrez votre adresse email",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Description brève de votre problème",
+      "message": "Message",
+      "messagePlaceholder": "Décrivez votre question ou problème en détail...",
+      "inGame": "Êtes-vous en partie ?",
+      "inGameYes": "Oui",
+      "inGameNo": "Non",
+      "gameId": "ID de la partie",
+      "gameIdPlaceholder": "Entrez l'ID de votre partie",
+      "send": "Envoyer le Message",
+      "sending": "Envoi en cours...",
+      "directEmail": "Ou contactez-nous directement à :"
+    },
+    "success": {
+      "title": "Message envoyé avec succès",
+      "message": "Nous avons bien reçu votre message et vous répondrons dans les plus brefs délais.",
+      "note": "En cas de problème urgent, vous pouvez nous contacter directement par email."
+    }
+  },
+  "terms": {
+    "title": "Conditions Générales de Vente",
+    "lastUpdated": "Dernière mise à jour : 18 novembre 2025",
+    "introduction": "Les présentes Conditions Générales de Vente (CGV) régissent l'utilisation de l'application Wolves & Whispers et les achats intégrés disponibles dans l'application.",
+    "contact": "Nous Contacter",
+    "contactDescription": "Si vous avez des questions concernant ces Conditions Générales de Vente, veuillez nous contacter à :",
+    "purchases": {
+      "title": "1. Achats Intégrés",
+      "items": [
+        "Les achats sont effectués via l'App Store (iOS) ou Google Play Store (Android)",
+        "Tous les prix sont affichés dans votre devise locale",
+        "Les achats sont définitifs et non transférables",
+        "Pour les rôles premium, seul l'hôte de la partie doit les acheter pour en faire bénéficier tous les joueurs"
+      ]
+    },
+    "content": {
+      "title": "2. Contenu Premium",
+      "items": [
+        "Rôles premium : accès à des rôles de jeu supplémentaires",
+        "Pack Premium : tous les rôles actuels et futurs, compositions illimitées, historique détaillé",
+        "Pack Premium Plus : inclut également la suppression des publicités",
+        "Le contenu acheté est lié à votre compte et restaurable sur tous vos appareils"
+      ]
+    },
+    "refunds": {
+      "title": "3. Remboursements",
+      "items": [
+        "Les remboursements sont gérés par Apple (App Store) ou Google (Play Store)",
+        "Pour demander un remboursement, contactez directement le store concerné",
+        "Nous ne gérons pas directement les remboursements des achats intégrés",
+        "Consultez les politiques de remboursement d'Apple ou Google pour plus d'informations"
+      ]
+    },
+    "usage": {
+      "title": "4. Conditions d'Utilisation",
+      "items": [
+        "Vous devez avoir au moins 13 ans pour utiliser l'application",
+        "L'utilisation de l'application est soumise à nos règles de conduite",
+        "Tout comportement abusif peut entraîner la suspension de votre compte",
+        "Nous nous réservons le droit de modifier le contenu de l'application"
+      ]
+    },
+    "liability": {
+      "title": "5. Limitation de Responsabilité",
+      "items": [
+        "L'application est fournie 'en l'état' sans garantie",
+        "Nous ne sommes pas responsables des interruptions de service",
+        "Nous ne garantissons pas la disponibilité permanente de l'application",
+        "Les achats sont à vos propres risques"
+      ]
+    },
+    "changes": {
+      "title": "6. Modifications des CGV",
+      "description": "Nous pouvons modifier ces Conditions Générales de Vente à tout moment. Les modifications seront publiées sur cette page avec une nouvelle date de mise à jour. L'utilisation continue de l'application après modification vaut acceptation des nouvelles conditions."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Wolves & Whispers. Tous droits réservés.",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions Générales de Vente"
+  }
+}

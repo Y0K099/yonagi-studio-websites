@@ -1,0 +1,195 @@
+{
+  "nav": {
+    "support": "Support"
+  },
+  "hero": {
+    "werewolf": "Experience an immersive game of Werewolves",
+    "description": "Each day, you must succeed in a team challenge to earn a key role for the village. The wolves' goal? Sabotage the challenge without getting caught. No role for the village means more chances to devour everyone!\n\nVillagers, bring out your best detective skills and try to unmask the wolves: is someone not really participating in the challenge, or subtly trying to sabotage it? You've found your target.",
+    "appScreenshot": "Wolves & Whispers app screenshot"
+  },
+  "download": {
+    "downloadOn": "Download on the",
+    "getItOn": "Get it on"
+  },
+  "support": {
+    "title": "Support & Help",
+    "subtitle": "Need help with Wolves & Whispers? We're here to assist you!",
+    "email": {
+      "title": "Email Support",
+      "description": "For technical issues, bug reports, or general inquiries, contact our support team:"
+    },
+    "response": {
+      "title": "Quick Response",
+      "description": "We typically respond within 24 hours during business days. For urgent issues, please mention it in your subject line.",
+      "time": "Average response time: < 24 hours"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: August 28, 2024",
+    "introduction": "This Privacy Policy describes how Wolves & Whispers (\"we\", \"our\", or \"us\") collects, uses, and protects your personal information when you use our mobile application.",
+    "contact": "Contact Us",
+    "contactDescription": "If you have any questions about this Privacy Policy, please contact us at:",
+    "dataCollection": {
+      "title": "1. Information We Collect",
+      "userProvided": {
+        "title": "User-Provided Information:",
+        "items": [
+          "Email address (for authentication)",
+          "Username (for game identification)", 
+          "Custom role compositions",
+          "Game history and statistics"
+        ]
+      },
+      "automatic": {
+        "title": "Automatically Collected Data:",
+        "items": [
+          "Device technical details",
+          "Usage patterns and performance metrics",
+          "Real-time presence status during games",
+          "Anonymized game actions and interactions"
+        ]
+      }
+    },
+    "dataUsage": {
+      "title": "2. How We Use Your Information",
+      "items": [
+        "User authentication and account management",
+        "Gameplay support and real-time synchronization",
+        "User personalization and game history",
+        "Performance optimization and bug fixes",
+        "Security and fraud prevention",
+        "Display advertisements (with your consent in Europe)"
+      ]
+    },
+    "advertising": {
+      "title": "3. Advertising and Third-Party Partners",
+      "items": [
+        "We use Google AdMob to display advertisements in the application",
+        "AdMob may collect advertising identifiers and usage data",
+        "You can choose between personalized or non-personalized advertisements",
+        "In Europe (GDPR), we ask for your consent before any personalized advertising",
+        "You can modify your advertising preferences at any time in settings",
+        "View Google's privacy policy: https://policies.google.com/privacy"
+      ]
+    },
+    "dataStorage": {
+      "title": "4. Data Storage and Security",
+      "items": [
+        "Hosted on Google Cloud/Firebase with European servers",
+        "Encrypted in transit and at rest",
+        "Granular Firestore security rules",
+        "Automatic data cleanup and retention policies"
+      ]
+    },
+    "userRights": {
+      "title": "5. Your Rights",
+      "items": [
+        "Access your personal data",
+        "Modify your account details", 
+        "Delete your account and associated data",
+        "Request data portability"
+      ]
+    },
+    "uniqueFeatures": {
+      "title": "6. What We DON'T Do",
+      "items": [
+        "No external analytics tracking (except AdMob)",
+        "Strict data isolation between games",
+        "No selling of your personal data to third parties",
+        "No advertising without your consent in Europe"
+      ]
+    },
+    "changes": {
+      "title": "7. Changes to This Policy",
+      "description": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the \"Last Updated\" date."
+    }
+  },
+  "contact": {
+    "form": {
+      "title": "Send us a message",
+      "name": "Username",
+      "namePlaceholder": "Enter your username",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "subject": "Subject",
+      "subjectPlaceholder": "Brief description of your issue",
+      "message": "Message",
+      "messagePlaceholder": "Describe your question or issue in detail...",
+      "inGame": "Are you in a game?",
+      "inGameYes": "Yes",
+      "inGameNo": "No",
+      "gameId": "Game ID",
+      "gameIdPlaceholder": "Enter your game ID",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "directEmail": "Or email us directly at:"
+    },
+    "success": {
+      "title": "Message sent successfully",
+      "message": "We have received your message and will respond as soon as possible.",
+      "note": "For urgent matters, you can contact us directly by email."
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: November 18, 2025",
+    "introduction": "These Terms of Service govern the use of the Wolves & Whispers application and in-app purchases available within the application.",
+    "contact": "Contact Us",
+    "contactDescription": "If you have any questions about these Terms of Service, please contact us at:",
+    "purchases": {
+      "title": "1. In-App Purchases",
+      "items": [
+        "Purchases are made through the App Store (iOS) or Google Play Store (Android)",
+        "All prices are displayed in your local currency",
+        "Purchases are final and non-transferable",
+        "For premium roles, only the game host needs to purchase them for all players to benefit"
+      ]
+    },
+    "content": {
+      "title": "2. Premium Content",
+      "items": [
+        "Premium roles: access to additional game roles",
+        "Premium Pack: all current and future roles, unlimited compositions, detailed history",
+        "Premium Pack Plus: also includes ad removal",
+        "Purchased content is linked to your account and restorable on all your devices"
+      ]
+    },
+    "refunds": {
+      "title": "3. Refunds",
+      "items": [
+        "Refunds are handled by Apple (App Store) or Google (Play Store)",
+        "To request a refund, contact the respective store directly",
+        "We do not directly manage in-app purchase refunds",
+        "Refer to Apple or Google refund policies for more information"
+      ]
+    },
+    "usage": {
+      "title": "4. Terms of Use",
+      "items": [
+        "You must be at least 13 years old to use the application",
+        "Use of the application is subject to our code of conduct",
+        "Any abusive behavior may result in account suspension",
+        "We reserve the right to modify the application content"
+      ]
+    },
+    "liability": {
+      "title": "5. Limitation of Liability",
+      "items": [
+        "The application is provided 'as is' without warranty",
+        "We are not responsible for service interruptions",
+        "We do not guarantee permanent availability of the application",
+        "Purchases are at your own risk"
+      ]
+    },
+    "changes": {
+      "title": "6. Changes to Terms",
+      "description": "We may modify these Terms of Service at any time. Changes will be posted on this page with a new update date. Continued use of the application after modification constitutes acceptance of the new terms."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Wolves & Whispers. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  }
+}
