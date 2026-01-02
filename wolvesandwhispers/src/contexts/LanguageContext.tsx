@@ -1,6 +1,6 @@
 'use client'
 
-import React, { createContext, useContext, useState, useEffect } from 'react'
+import React, { createContext, useContext, useState } from 'react'
 import en from '../../locales/en.json'
 import fr from '../../locales/fr.json'
 
@@ -21,8 +21,8 @@ const translations: Record<Locale, Translations> = {
   fr,
 }
 
-function getNestedTranslation(obj: any, path: string): string {
-  return path.split('.').reduce((current, key) => current?.[key], obj) || path
+function getNestedTranslation(obj: Record<string, unknown>, path: string): string {
+  return path.split('.').reduce((current, key) => (current as Record<string, unknown>)?.[key], obj as unknown) as string || path
 }
 
 export function LanguageProvider({
