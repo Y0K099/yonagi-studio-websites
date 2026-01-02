@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  // SSR enabled - no output export
   trailingSlash: true,
-  // No basePath - serves from root domain
+  // No basePath - clean URLs
 };
 
 export default nextConfig;
