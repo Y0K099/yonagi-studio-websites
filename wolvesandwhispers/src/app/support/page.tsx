@@ -1,8 +1,8 @@
 'use client'
 import Link from 'next/link'
-import { useTranslation } from '../../../../hooks/useTranslation'
-import LanguageSelector from '../../../../components/LanguageSelector'
-import ContactForm from '../../../../components/ContactForm'
+import { useTranslation } from '../../hooks/useTranslation'
+import LanguageSelector from '../../components/LanguageSelector'
+import ContactForm from '../../components/ContactForm'
 
 export default function Support() {
   const { t } = useTranslation();
