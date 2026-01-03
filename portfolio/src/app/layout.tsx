@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/contexts/LanguageContext";
+import { detectLocale } from "@/utils/locale";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,17 +19,19 @@ export const metadata: Metadata = {
   description: "Multiplayer games studio creating social deduction and assassination games",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await detectLocale();
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <LanguageProvider initialLocale="en">
+        <LanguageProvider initialLocale={locale}>
           {children}
         </LanguageProvider>
       </body>
