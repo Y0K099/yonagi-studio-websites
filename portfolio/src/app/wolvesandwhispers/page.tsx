@@ -1,7 +1,6 @@
 'use client'
 import Link from 'next/link'
 import { useTranslation } from '@/hooks/useTranslation'
-import LanguageSelector from '@/components/LanguageSelector'
 import AppScreenshot from '@/components/AppScreenshot'
 
 export default function Home() {
@@ -15,7 +14,6 @@ export default function Home() {
           <h1 className="text-2xl font-bold text-white">Wolves & Whispers</h1>
           <div className="flex items-center space-x-6">
             <Link href="./support" className="text-white hover:text-red-300 transition">{t('nav.support')}</Link>
-            <LanguageSelector />
           </div>
         </nav>
       </header>

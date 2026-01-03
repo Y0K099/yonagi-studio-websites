@@ -3,7 +3,13 @@ import { useState } from 'react'
 import { useTranslation } from '../hooks/useTranslation'
 import emailjs from '@emailjs/browser'
 
-export default function ContactForm() {
+interface ContactFormProps {
+  serviceId: string;
+  templateId: string;
+  appName: string;
+}
+
+export default function ContactForm({ serviceId, templateId, appName }: ContactFormProps) {
   const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
@@ -28,13 +34,11 @@ export default function ContactForm() {
     e.preventDefault();
     setIsSubmitting(true);
     setError('');
-    
+
     try {
-      // Configuration EmailJS
-      const PUBLIC_KEY = 'OB6PSqeaIQIcdMA5-';
-      const SERVICE_ID = 'service_pariz0j';
-      const TEMPLATE_ID = 'template_205hz04';
-      
+      // Configuration EmailJS - À créer dans le dashboard EmailJS
+      const PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+
       // Préparer les données pour EmailJS
       const templateParams = {
         from_name: formData.name,
@@ -42,17 +46,18 @@ export default function ContactForm() {
         subject: formData.subject,
         message: formData.message,
         in_game: formData.inGame === 'yes' ? 'Oui' : formData.inGame === 'no' ? 'Non' : 'Non spécifié',
-        game_id: formData.inGame === 'yes' ? formData.gameId : ''
+        game_id: formData.inGame === 'yes' ? formData.gameId : '',
+        app_name: appName
       };
-      
+
       // Envoyer l'email avec EmailJS
-      await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY);
-      
+      await emailjs.send(serviceId, templateId, templateParams, PUBLIC_KEY);
+
       // Succès
       setIsSubmitted(true);
       setFormData({ name: '', email: '', subject: '', message: '', inGame: '', gameId: '' });
       setTimeout(() => setIsSubmitted(false), 5000);
-      
+
     } catch (error) {
       console.error('Erreur envoi email:', error);
       setError('Erreur lors de l\'envoi. Veuillez réessayer.');
@@ -81,7 +86,7 @@ export default function ContactForm() {
   return (
     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8">
       <h2 className="text-2xl font-bold text-white mb-6">{t('contact.form.title')}</h2>
-      
+
       <form onSubmit={handleSubmit} className="space-y-6">
         {/* Message d'erreur */}
         {error && (
@@ -89,7 +94,7 @@ export default function ContactForm() {
             <p className="text-red-300 text-sm">{error}</p>
           </div>
         )}
-        
+
         {/* Nom */}
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">

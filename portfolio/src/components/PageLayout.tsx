@@ -1,13 +1,18 @@
 'use client'
 import Link from 'next/link'
 import { useTranslation } from '../hooks/useTranslation'
-import LanguageSelector from './LanguageSelector'
 
 interface PageLayoutProps {
   children: React.ReactNode;
+  basePath?: string;
+  brandName?: string;
 }
 
-export default function PageLayout({ children }: PageLayoutProps) {
+export default function PageLayout({
+  children,
+  basePath = '',
+  brandName = 'Wolves & Whispers'
+}: PageLayoutProps) {
   const { t } = useTranslation();
   
   return (
@@ -15,12 +20,11 @@ export default function PageLayout({ children }: PageLayoutProps) {
       {/* Header */}
       <header className="container mx-auto px-4 py-6">
         <nav className="flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold text-white hover:text-purple-300 transition">
-            Wolves & Whispers
+          <Link href={basePath || "/"} className="text-2xl font-bold text-white hover:text-purple-300 transition">
+            {brandName}
           </Link>
           <div className="flex items-center space-x-6">
-            <Link href="/support" className="text-white hover:text-purple-300 transition">{t('nav.support')}</Link>
-            <LanguageSelector />
+            <Link href={`${basePath}/support`} className="text-white hover:text-purple-300 transition">{t('nav.support')}</Link>
           </div>
         </nav>
       </header>
@@ -35,7 +39,7 @@ export default function PageLayout({ children }: PageLayoutProps) {
         <div className="text-center text-gray-400">
           <p>{t('footer.copyright')}</p>
           <div className="mt-4">
-            <Link href="/privacy" className="hover:text-white transition">{t('footer.privacyPolicy')}</Link>
+            <Link href={`${basePath}/privacy`} className="hover:text-white transition">{t('footer.privacyPolicy')}</Link>
           </div>
         </div>
       </footer>

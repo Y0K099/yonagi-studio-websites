@@ -1,7 +1,6 @@
 'use client'
 import Link from 'next/link'
 import { useTranslation } from '@/hooks/useTranslation'
-import LanguageSelector from '@/components/LanguageSelector'
 import ContactForm from '@/components/ContactForm'
 
 export default function Support() {
@@ -17,7 +16,6 @@ export default function Support() {
           </Link>
           <div className="flex items-center space-x-6">
             <Link href="../support" className="text-red-300 font-semibold">{t('nav.support')}</Link>
-            <LanguageSelector />
           </div>
         </nav>
       </header>
@@ -34,7 +32,11 @@ export default function Support() {
 
           {/* Contact Form */}
           <div className="max-w-2xl mx-auto">
-            <ContactForm />
+            <ContactForm
+              serviceId="service_uqja4n4"
+              templateId="template_ykfcfue"
+              appName="Wolves & Whispers"
+            />
           </div>
 
         </div>

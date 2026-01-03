@@ -3,7 +3,13 @@ import { useState } from 'react'
 import { useTranslation } from '../hooks/useTranslation'
 import emailjs from '@emailjs/browser'
 
-export default function ContactForm() {
+interface ContactFormProps {
+  serviceId: string;
+  templateId: string;
+  appName: string;
+}
+
+export default function ContactForm({ serviceId, templateId, appName }: ContactFormProps) {
   const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
@@ -28,13 +34,11 @@ export default function ContactForm() {
     e.preventDefault();
     setIsSubmitting(true);
     setError('');
-    
+
     try {
       // Configuration EmailJS
-      const PUBLIC_KEY = 'OB6PSqeaIQIcdMA5-';
-      const SERVICE_ID = 'service_pariz0j';
-      const TEMPLATE_ID = 'template_205hz04';
-      
+      const PUBLIC_KEY = 'E9aI32wrjjuTEJdB3';
+
       // Préparer les données pour EmailJS
       const templateParams = {
         from_name: formData.name,
@@ -42,11 +46,12 @@ export default function ContactForm() {
         subject: formData.subject,
         message: formData.message,
         in_game: formData.inGame === 'yes' ? 'Oui' : formData.inGame === 'no' ? 'Non' : 'Non spécifié',
-        game_id: formData.inGame === 'yes' ? formData.gameId : ''
+        game_id: formData.inGame === 'yes' ? formData.gameId : '',
+        app_name: appName
       };
-      
+
       // Envoyer l'email avec EmailJS
-      await emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams, PUBLIC_KEY);
+      await emailjs.send(serviceId, templateId, templateParams, PUBLIC_KEY);
       
       // Succès
       setIsSubmitted(true);

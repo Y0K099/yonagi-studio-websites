@@ -1,7 +1,6 @@
 'use client'
 import Link from 'next/link'
 import { useTranslation } from '@/hooks/useTranslation'
-import LanguageSelector from '@/components/LanguageSelector'
 import en from '@locales/en.json'
 import fr from '@locales/fr.json'
 
@@ -19,7 +18,6 @@ export default function Privacy() {
           </Link>
           <div className="flex items-center space-x-6">
             <Link href="../support" className="text-white hover:text-red-300 transition">{t('nav.support')}</Link>
-            <LanguageSelector />
           </div>
         </nav>
       </header>
