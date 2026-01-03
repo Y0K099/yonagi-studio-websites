@@ -200,5 +200,17 @@
   "temor": {
     "description": "Une nouvelle expérience terrifiante bientôt disponible...",
     "comingSoon": "Bientôt Disponible"
+  },
+  "homepage": {
+    "wolves": {
+      "title": "Wolves & Whispers",
+      "description": "Jeu de loups-garous social avec mini-jeux",
+      "discoverButton": "Découvrir"
+    },
+    "temor": {
+      "title": "Témor",
+      "description": "Jeu d'assassinat multijoueur en temps réel",
+      "discoverButton": "Découvrir"
+    }
   }
 }

@@ -200,5 +200,17 @@
   "temor": {
     "description": "A new terrifying experience coming soon...",
     "comingSoon": "Coming Soon"
+  },
+  "homepage": {
+    "wolves": {
+      "title": "Wolves & Whispers",
+      "description": "Social deduction werewolf game with mini-games",
+      "discoverButton": "Discover"
+    },
+    "temor": {
+      "title": "Témor",
+      "description": "Real-time multiplayer assassination game",
+      "discoverButton": "Discover"
+    }
   }
 }
